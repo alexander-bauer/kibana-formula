@@ -5,7 +5,7 @@ kibana-repo:
   pkgrepo.managed:
     - humanname: Kibana Repo
     - name: deb {{ kibana.repo_url }} stable main
-    - file: /etc/apt/sources.list.d/elasticsearch.list
+    - file: /etc/apt/sources.list.d/kibana.list
     - gpgcheck: 1
     - key_url: https://packages.elastic.co/GPG-KEY-elasticsearch
     - require_in:
